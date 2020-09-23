@@ -1,0 +1,88 @@
+page {
+  padding-bottom: 90rpx;
+}
+.detail_swiper swiper {
+  height: 65vw;
+}
+.detail_swiper swiper swiper-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail_swiper swiper swiper-item image {
+  width: 60%;
+}
+.goods_price {
+  font-size: 32rpx;
+  font-weight: 600;
+  padding: 10rpx 15rpx;
+  color: var(--themeColor);
+}
+.goods_name_row {
+  display: flex;
+  border-top: 5rpx solid #dedede;
+  border-bottom: 5rpx solid #dedede;
+  padding: 10rpx 0;
+}
+.goods_name_row .goods_name {
+  flex: 5;
+  color: #000;
+  font-size: 30rpx;
+  padding: 0 10rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.goods_name_row .goods_collect {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #000;
+}
+.goods_info .goods_info_title {
+  font-size: 32rpx;
+  font-weight: 600;
+  padding: 20rpx;
+  color: var(--themeColor);
+}
+.btn_tool {
+  border-top: 1px sliod #ccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  background-color: #fff;
+}
+.btn_tool .btn_item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17rpx;
+  position: relative;
+}
+.btn_tool .btn_item button {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.btn_tool .car {
+  flex: 2;
+  color: #fff;
+  font-size: 30rpx;
+  background-color: #ffa500;
+}
+.btn_tool .buy {
+  flex: 2;
+  color: #fff;
+  font-size: 30rpx;
+  background-color: red;
+}
